@@ -7,7 +7,7 @@ let input;
 let number;
 do {
     input = prompt('Введите число.');
-    if (Number.isNaN(Number(input)) === false ) {
+    if (!Number.isNaN(Number(input))) {
         if (input !== null ){
             numbers.push(input);
         }
